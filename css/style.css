@@ -2,84 +2,15 @@
 
 /* @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500,700,900|Open+Sans:300,400,600,700'); */
 
-/* Slider CSS */
-.slider {
-    /* width: 1000px; */
-    /* margin: 10px auto; */
-    text-align: center;
-    padding: 20px;
+.myBtn{
     display: flex;
-  }
-  
-  .slide{
-    margin-left: 10px;
-    /* background: #000; */
-    box-shadow: 10px 5px 10px #888888;
-  }
-  
-  .slide h5{
-    font-size: 17px;
-  }
-  
-  
-  .parent-slide {
-    padding: 20px;
-  }
-  .slide img {
-    /* display: block; */
-    width: 25% !important;
-    margin: auto;
-  }
-  
-  
-  @media screen and (max-width:480px){
-    .slider {
-      text-align: center;
-      display: flex;
-      flex-wrap: wrap;
-    }
+}
 
-    .slide h5{
-        display: none;
-    }
-    
-    .slide img {
-        width: 200% !important;
-        margin: auto;
-      }
-
-      .slide-3{
-        display: none;
-      }
-      .slide-5{
-        display: none;
-      }
-      .slide-10{
-        display: none;
-      }
-      .slide-11{
-        display: none;
-      }
-      .slide-12{
-        display: none;
-      }
-      .slide-13{
-        display: none;
-      }
-      .slide-14{
-        display: none;
-      }
-      .slide-15{
-        display: none;
-      }
-      .slide-16{
-        display: none;
-      }
-      .slide-17{
-        display: none;
-      }
-  }
-
+/* .myBtn .btn1_top{
+background-color: #042888;
+color: #fff;
+margin-left: 50px;
+}  */
 
 
 /*  */
