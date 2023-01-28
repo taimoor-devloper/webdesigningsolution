@@ -149,6 +149,12 @@ ul.about_ul li {
   padding: 30px 0 10px;
   /* box-shadow: 0px 0px 20px rgb(0 0 0 / 8%); */
 }
+.set{
+  display: flex !important;
+}
+.set h5{
+  margin-top: 20px !important;
+}
 
 .logo_tab_platform {
   box-shadow: 0px 6px 14.25px 0.75px rgba(0, 0, 0, 0.08);

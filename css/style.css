@@ -6,13 +6,31 @@
     display: flex;
 }
 
-/* .myBtn .btn1_top{
-background-color: #042888;
-color: #fff;
-margin-left: 50px;
-}  */
+ul.keyfeatures-ul li .key-feature-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.5s;
+    border-right: 1px solid #fff !important;
+    padding-left: 15px;
+}
+#keyfeatures img {
+    display: block;
+    width: auto;
+}
+ul.keyfeatures-ul li .key-feature-box p {
+    font-family: raleway !important;
+    font-size: 16px !important;
+    line-height: 26px !important;
+    text-align: left;
+    margin-top: 20px;
+    padding-left: 20px;
+    color: #fff !important;
+}
 
-
+ul.keyfeatures-ul li .key-feature-box img {
+    filter: brightness(15);
+}
 /*  */
 
 .platform_logo_sec {
