@@ -109,13 +109,13 @@ img {
 }
 
 .about_content h2 {
-  font-size: 52px;
-  font-weight: 800;
+  font-size: 43px;
+  font-weight: 600;
   line-height: 61px;
   padding-bottom: 25px;
   color: var(--black);
   position: relative;
-  z-index: 99;
+  z-index: 0;
   right: -70px;
 }
 
@@ -160,7 +160,7 @@ ul.about_ul li {
   box-shadow: 0px 6px 14.25px 0.75px rgba(0, 0, 0, 0.08);
   border-radius: 10px;
   position: relative;
-  padding: 21px 20px 24px 14px;
+  padding: 21px 0px 24px 6px;
   background: #fff;
   line-height: 60px;
   margin-left: 16px;

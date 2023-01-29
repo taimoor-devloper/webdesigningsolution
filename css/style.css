@@ -969,7 +969,7 @@ img.rotates {position: absolute;width: 56%;left: 0;top: 50px;right: 0;margin: 0 
     float: left;
 }
 .home_cta .imgwrp img {
-    width: 120%;
+    width: 100%;
 }
 .home_cta .btn-2{color: #fff;}
 
@@ -1073,7 +1073,7 @@ img.rotates {position: absolute;width: 56%;left: 0;top: 50px;right: 0;margin: 0 
 }
 
 
-.countrwrp{padding: 70px 0 70px;display: block;/* text-align: center; */background-image: url(images/banner-perce.png);background-repeat: no-repeat;background-size: auto;background-position: left;}
+.countrwrp{padding: 70px 0 70px;display: block;/* text-align: center; */background-image: url(../images/banner-perce.png);background-repeat: no-repeat;background-size: auto;background-position: right;}
 .countrwrp .txtwrp{}
 .countrwrp .mainwrp{box-shadow: #10101026 -15px 15px 17px 0px;margin: 11px 0;background: #fff;padding: 10px;text-align: CENTER;}
 .countrwrp .mainwrp span{color: #1a5561;font-size: 48px;font-weight: 600;}

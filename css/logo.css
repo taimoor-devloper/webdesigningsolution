@@ -665,7 +665,7 @@ ul.slick-dots li button {
 }
 
 ul.slick-dots li.slick-active button {
-    background: #72ba48;
+    background: #f9a002;
 }
 
 .top-nav li {
@@ -1733,7 +1733,7 @@ ul.double-slidr li {
 }
 
 .double-slidr-sync ul.slick-dots li.slick-active button {
-    background: #76c137;
+    background: rgba(0, 0, 0, 0.08);
 }
 
 ul.double-slidr li.slick-current h3,
