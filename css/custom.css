@@ -166,7 +166,7 @@ ul.about_ul li {
   margin: 0;
 }
 .padding_70 {
-  padding: 70px 0;
+  padding: 0 0;
 }
 .center_head_content {
   text-align: center;
@@ -1249,7 +1249,7 @@ a.rightcalltoaction i {
     right: 0;
   }
   section.promote_sec_main.padding_70 {
-    padding: 30px 0 0;
+    padding: 0 0 0;
   }
 }
 @media (max-width: 1100px) {
@@ -1463,7 +1463,7 @@ a.rightcalltoaction i {
     padding: 20px;
   }
   .padding_70 {
-    padding: 50px 0;
+    padding: 0 0;
   }
   .center_head_content span:before {
     width: 219px;
@@ -1546,7 +1546,7 @@ a.rightcalltoaction i {
     display: none;
   }
   section.promote_sec_main.padding_70 {
-    padding: 50px 0 70px;
+    padding: 0 0 0;
   }
   .promote_sec_main .col-sm-6 {
     max-width: 100%;
