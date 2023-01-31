@@ -21,7 +21,7 @@
 </script>
 
 <!-- Start of  Zendesk Widget script -->
-<script id="ze-snippet" src="static.zdassets.com/ekr/snippeta22d.js?key=b69e5fcb-913e-4d94-b6d9-d2bb8ba08044"> </script>
+<!-- <script id="ze-snippet" src="static.zdassets.com/ekr/snippeta22d.js?key=b69e5fcb-913e-4d94-b6d9-d2bb8ba08044"> </script> -->
 <!-- End of  Zendesk Widget script -->
 
 <meta charset="utf-8">
@@ -130,7 +130,7 @@
                 <a class="nav-link" href="contact.html">Contact</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link live-chat" href="javascript:;" onclick="setButtonURL();"><img src="images/live-chat-icon.webp">  Live Chat</a>
+                <a class="nav-link live-chat" href="javascript:void(Tawk_API.toggle())"><img src="images/live-chat-icon.webp">  Live Chat</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link phn-icon" href="tel:+1 (307) 215-7726"><i class="fa fa-phone"></i> +1 (307) 215-7726</a>
@@ -1034,7 +1034,7 @@
               <a href="tel:+1 (307) 215-7726">Phone: +1 (307) 215-7726</a>
             </li>
             <li>
-              <a href="javascript:;">Address: 30 N GOULD ST STE 26599, SHERIDAN WY, UNITED STATES 82801</a>
+              <a href="javascript:void(Tawk_API.toggle())">Address: 30 N GOULD ST STE 26599, SHERIDAN WY, UNITED STATES 82801</a>
             </li>
             <li>
               <a href="mailto:info@webdesigningsolution.com">Email: info@webdesigningsolution.com</a>
@@ -1073,7 +1073,7 @@
 </div><div class="floatbutton">
   <div class="btns_wrap">
 
-    <a href="javascript:;" class="chat_wrap" onclick="setButtonURL();">
+    <a href="javascript:void(Tawk_API.toggle())" class="chat_wrap" >
       <span class="icoo"><i class="fa fa-comment"></i></span>
       <span>Chat With Us</span>
     </a>
@@ -1138,13 +1138,39 @@
     </div>  
   </div>
 </div>
-    <!-- Whatsapp Button -->
+        <!--Start of Tawk.to Script-->
+        <script type="text/javascript">
+          var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
+          (function () {
+            var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
+            s1.async = true;
+            s1.src = 'https://embed.tawk.to/63853971b0d6371309d19a0e/1gj06gpmi';
+            s1.charset = 'UTF-8';
+            s1.setAttribute('crossorigin', '*');
+            s0.parentNode.insertBefore(s1, s0);
+          })();
+        </script>
+        <!--End of Tawk.to Script-->
+
+    <script>
+      const scriptURL = 'https://script.google.com/macros/s/AKfycbw3j7JcsTy_tfSneyuBvmCjIiNqs8H4TuiAyWfj2SAij2mgFnaZFOPFqoeSggJJvvZ-5w/exec'
+      const form = document.forms['formName']
+
+      form.addEventListener('submit', e => {
+        e.preventDefault()
+        fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+          .then(response => alert("Thank you! your form is submitted successfully."))
+          .then(() => { window.location.reload(); })
+          .catch(error => console.error('Error!', error.message))
+      })
+    </script> <!-- Whatsapp Button -->
+
 
     <a class="rightcalltoaction"
       href="https://api.whatsapp.com/send?phone=+13072157726&amp;text=I%27m%20interested%20in%20your%20services"
       target="_blank">
       <i class="fa fa-whatsapp" aria-hidden="true"></i>
-    </a>    <!-- Whatsapp button end -->
+    </a> <!-- Whatsapp button end -->
     <script type="text/javascript">
 
       $(".clickbutton").click(function () {
