@@ -3847,10 +3847,8 @@
               success.</p>
             <form class="CrudForm cmxform gform" id="package_form" method="POST"
               data-email="hafizusama.amazon@gmail.com" action="" name="formName">
-              
-
               <div class="row">
-                <div class="col-md-12">
+                <div class="col-md-6">
                   <ul>
                     <li>
                       <i class="fa fa-user" aria-hidden="true"></i>
@@ -3859,6 +3857,18 @@
                     </li>
                   </ul>
                 </div>
+
+                <div class="col-md-6">
+                  <select name="Package" id="package_id" class="package_set select_pkg">
+                    <option value="">I Am Interested In</option>
+                    <option value="Logo Design">Logo Design</option>
+                    <option value="Website Development">Website Development</option>
+                    <option value="Video Animation">Video Animation</option>
+                    <option value="E-Commerce">E-Commerce</option>
+                    <option value="Branding">Branding</option>
+                  </select>
+                </div>
+
                 <div class="col-md-6">
                   <ul>
                     <li>
@@ -3881,7 +3891,7 @@
                   <ul>
                     <li>
                       <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
-                      <textarea name="comment" class="required" required=""
+                      <textarea name="comment" class="required" required
                         placeholder="To help us understand better, enter a brief description about your project."
                         aria-required="true"></textarea>
                     </li>
@@ -3894,6 +3904,13 @@
                       <input type="submit" value="Submit">
                     </li>
                   </ul>
+
+                  <!-- Customise the Thankyou Message People See when they submit the form: -->
+                  <div class="thankyou_message" style="display: none">
+                    <p>
+                      <em>Thanks</em> for Registration! We will get back to you soon!
+                    </p>
+                  </div>
                 </div>
               </div>
             </form>
